@@ -48,6 +48,7 @@ namespace Movies
         /// Gets all the movies in the database
         /// </summary>
         public static IEnumerable<Movie> All { get { return movies; } }
+
         /// <summary>
         /// Searches the database for matching movies
         /// </summary>
